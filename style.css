@@ -1,0 +1,80 @@
+body {
+    margin: 15px 0;
+    background: rgb(248, 242, 203);
+  }
+  
+  header {
+      border-top: dotted #0A75BC 5px;
+      border-bottom: dotted #0A75BC 5px;
+  }
+  
+  .header{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  
+  h2 {
+      text-align: center;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 20pt;
+  }
+  
+  .board {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    /* background-color:rgb(248, 242, 203); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 175px;
+    width: 175px;
+    position: relative;
+    transition: transform 1.5s ease-in-out;
+    transform-style: preserve-3d;
+    margin: 5px;
+  }
+  
+  .selected {
+    transform: rotateY(180deg);
+  }
+  
+  .match
+  .front {
+    background-image: url(images/banana.png) !important;
+  }
+  
+  .card,
+  .back,
+  .front {
+    height: 175px;
+    width: 175px;
+  }
+  
+  .back,
+  .front {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    background: #fce029 url(images/eye.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .back {
+    transform: rotateY(180deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
