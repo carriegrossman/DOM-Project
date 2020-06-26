@@ -30,12 +30,11 @@ body {
   }
   
   .card {
-    /* background-color:rgb(248, 242, 203); */
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 175px;
-    width: 175px;
+    height: 150px;
+    width: 150px;
     position: relative;
     transition: transform 1.5s ease-in-out;
     transform-style: preserve-3d;
@@ -48,14 +47,14 @@ body {
   
   .match
   .front {
-    background-image: url(images/banana.png) !important;
+    background-image: url(images/banana.png) !important;;
   }
   
   .card,
   .back,
   .front {
-    height: 175px;
-    width: 175px;
+    height: 150px;
+    width: 150px;
   }
   
   .back,

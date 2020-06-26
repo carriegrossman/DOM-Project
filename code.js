@@ -31,6 +31,14 @@ const cardDeck = [
     {
         name: 'selfie',
         img: 'images/selfie.png',
+    },
+    {
+        name: 'guitar',
+        img: 'images/guitar.png',
+    },
+    {
+        name: 'disguise',
+        img: 'images/disguise.png',
     }
 ]
 
