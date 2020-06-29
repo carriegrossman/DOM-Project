@@ -17,10 +17,6 @@ const cardDeck = [
         img: 'images/chef.png',
     },
     {
-        name: 'group',
-        img: 'images/group.png',
-    },
-    {
         name: 'dave',
         img: 'images/dave.png',
     },
@@ -33,12 +29,16 @@ const cardDeck = [
         img: 'images/selfie.png',
     },
     {
-        name: 'guitar',
-        img: 'images/guitar.png',
-    },
-    {
         name: 'disguise',
         img: 'images/disguise.png',
+    },
+    {
+        name: 'group',
+        img: 'images/group.png',
+    },
+    {
+        name: 'stack',
+        img: 'images/stack.png',
     }
 ]
 
