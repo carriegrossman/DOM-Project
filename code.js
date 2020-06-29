@@ -91,7 +91,7 @@ const match = () => {
     selected.forEach(card => {
       card.classList.add('match')
       console.log("You found a match!")
-      alert("You found a match!")
+      // alert("You found a match!")
     })
   }
 
