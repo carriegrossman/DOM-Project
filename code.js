@@ -57,6 +57,7 @@ let previousTarget = null
 //their selection was before the card is hidden agai
 let delay = 1500
 
+
 //this creates the game board to element game and create new section with board
 const game = document.getElementById('game')
 const board = document.createElement('section')
@@ -89,6 +90,8 @@ const match = () => {
     let selected = document.querySelectorAll('.selected')
     selected.forEach(card => {
       card.classList.add('match')
+      console.log("You found a match!")
+      alert("You found a match!")
     })
   }
 
