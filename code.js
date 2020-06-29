@@ -144,3 +144,5 @@ board.addEventListener('click', function(event) {
         previousTarget = clicked;
       }
     })
+
+
